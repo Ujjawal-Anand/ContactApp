@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ContactApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_setting">Settings</string>
+    <string name="msg_sms">Hi, your OTP is: </string>
+    <string name="msg_no_data">No data available </string>
+    <string name="msg_description">Make sure everything is right!</string>
+    <string name="msg_sit_back">Sit back &amp; Relax! while we verify your mobile number</string>
+    <string name="msg_manual_otp">(Enter the OTP below in case if we fail to detect the SMS automatically)</string>
+    <string name="msg_otp_not_equal">Entered OTP didn\'t match </string>
+    <string name="msg_enter_otp">Enter the OTP, sent on your mobile</string>
+    <string name="des_profile_image">Shows Image Containing Name Initital</string>
+    <string name="lbl_enter_otp">Enter OTP</string>
+    <string name="lbl_send">Send</string>
+    <string name="lbl_create_message">Create OTP</string>
+    <string name="lbl_submit">Submit</string>
+
+</resources>

@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="io.uscool.contactapp.fragment.ShowProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+   <ImageView
+       android:id="@+id/contact_image"
+       style="@style/profile_image"
+       android:contentDescription="@string/des_profile_image"/>
+    <TextView
+        android:id="@+id/contact_name"
+        style="@style/contact_text"/>
+    <TextView
+        android:id="@+id/contact_number"
+        style="@style/contact_text"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/new_message_btn"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="@string/lbl_create_message"/>
+
+</LinearLayout>
