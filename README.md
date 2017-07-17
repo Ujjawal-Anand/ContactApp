@@ -5,12 +5,11 @@ A sample app that uses twilio api to send OTP (and authenticates the same) to se
 
 <img src="screenshots/1.jpg" alt="Screen 1" width="180px" height="320px"> <img src="screenshots/2.jpg" alt="Screen 1" width="180px" height="320px">
 
-<img src="screenshots/3.png" alt="Screen 1" width="180px" height="320px">
-<img src="screenshots/4.jpg" alt="Screen 1" width="180px" height="320px">
+<img src="screenshots/3.png" alt="Screen 1" width="180px" height="320px"> <img src="screenshots/4.jpg" alt="Screen 1" width="180px" height="320px">
 
 ## Backgound Story
 I got a challenge from an Indian startup [KisanNetwork](http://kisannetwork.com) to create this app.
-You can read the whole challenge [here](https://github.com/andy1729/ContactApp/doc/challenge.pdf)
+You can read the whole challenge [here](https://github.com/andy1729/ContactApp/blob/master/doc/challenge.pdf).
 After submitting the same I put the source-code here as it will be a good example to learn for whoever is looking a solution for a similar problem.
 
 ## Install
