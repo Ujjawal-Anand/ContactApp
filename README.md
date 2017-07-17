@@ -44,5 +44,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 #### Open Source Libraries Used
 Third party libraries used in this project
-  * [okhttp](https://github.com/square/okhttp) - to fetch data from [hpcl website](http://hproroute.hpcl.co.in)
-  * [FloatingSearchView](https://github.com/arimorty/floatingsearchview) to display a search box for searching towns.
+  * [okhttp](https://github.com/square/okhttp) - to send SMS using twilio REST Api
+  * [TextDrawable](https://github.com/amulyakhare/TextDrawable) to display a TextDrawable just like those in Gmail App.
