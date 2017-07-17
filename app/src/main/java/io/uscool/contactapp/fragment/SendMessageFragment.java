@@ -43,8 +43,11 @@ import okhttp3.Response;
  */
 public class SendMessageFragment extends Fragment {
     private final static String TAG = "SendMessageFragment";
-    private final static String ACCOUNT_SID = "Add your twilio sid"; // Twilio account sid
-    private final static String AUTH_TOKEN = "replace with your twilio auth token";  // Twilio auth token
+    // Its a potentially dangerous practice to put your account information in android app
+    // as there is a chance that someone can decrypt the app and get this information
+    // don't consider it for production.
+    private final static String ACCOUNT_SID = "put your twilio account sid"; // Twilio account sid
+    private final static String AUTH_TOKEN = "put your auth token";  // Twilio auth token
 
     private ProgressBar mProgressBar; // progress bar to show progress on message sending
     private LinearLayout mSendOtpLayout; // Linear layout to display while sending SMS
